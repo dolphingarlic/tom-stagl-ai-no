@@ -120,11 +120,11 @@ class Quora(Cog):
         await ctx.send(f'Ice Hockey; {round(self.bot.latency * 1000, 2)}ms')
 
     @command(aliases=['wisdom'])
-    async def advice(self, ctx):
+    async def advice(self, ctx, prefix=''):
         """
         Requests advice from
         https://gpt2-os7x3hnhca-uc.a.run.app/
         """
 
-        advice = await fetch_http(self.session, 'https://gpt2-os7x3hnhca-uc.a.run.app/')
+        advice = await fetch_http(self.session, f'https://gpt2-os7x3hnhca-uc.a.run.app/?prefix={prefix}')
         await ctx.send(f'{advice["text"]}\n\nEasy. Good Luck.')
