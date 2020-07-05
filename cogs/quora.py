@@ -81,7 +81,7 @@ class Quora(Cog):
             inline=True
         ).add_field(
             name=f'`{self.prefix}about` or `{self.prefix}stats`',
-            value='About me',
+            value='About me (Tom Stagliano - MIT class of \'76)',
             inline=True
         ).add_field(
             name=f'`{self.prefix}invite`',
@@ -89,7 +89,7 @@ class Quora(Cog):
             inline=True
         ).add_field(
             name=f'`{self.prefix}help`',
-            value='Shows This message',
+            value='Shows This message (did I mention I Went To MIT?)',
             inline=True
         ).add_field(
             name=f'`{self.prefix}ping`',
@@ -97,7 +97,7 @@ class Quora(Cog):
             inline=True
         ).add_field(
             name=f'`{self.prefix}github` or `{self.prefix}source`',
-            value='Links to the Bot\'s GitHub repo',
+            value='Links to the Bot\'s ~~MIT~~ GitHub repo',
             inline=True
         )
 
@@ -127,4 +127,4 @@ class Quora(Cog):
         """
 
         advice = await fetch_http(self.session, 'https://gpt2-os7x3hnhca-uc.a.run.app/')
-        await ctx.send(advice['text'])
+        await ctx.send(f'{advice["text"]}\n\nEasy. Good Luck.')
