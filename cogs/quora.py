@@ -32,7 +32,7 @@ class Quora(Cog):
         Sends the link to the bot's GitHub repo
         """
 
-        await ctx.send('https://github.com/dolphingarlic')
+        await ctx.send('https://github.com/dolphingarlic/tom-stagl-ai-no')
 
     @command(aliases=['stats'])
     async def about(self, ctx):
@@ -76,7 +76,7 @@ class Quora(Cog):
             description='Help yourself. Easy. All The best',
             colour=0x41c03f
         ).add_field(
-            name=f'`{self.prefix}advice`',
+            name=f'`{self.prefix}advice` or `{self.prefix}wisdom`',
             value='Gives you GLOWING HOT advice Using GPT-2',
             inline=True
         ).add_field(
@@ -89,15 +89,15 @@ class Quora(Cog):
             inline=True
         ).add_field(
             name=f'`{self.prefix}help`',
-            value='Shows this message',
+            value='Shows This message',
             inline=True
         ).add_field(
             name=f'`{self.prefix}ping`',
-            value='Check the bot\'s latency',
+            value='Check the bot\'s Latency',
             inline=True
         ).add_field(
             name=f'`{self.prefix}github` or `{self.prefix}source`',
-            value='Links to the bot\'s GitHub repo',
+            value='Links to the Bot\'s GitHub repo',
             inline=True
         )
 
@@ -119,7 +119,7 @@ class Quora(Cog):
 
         await ctx.send(f'Ice Hockey; {round(self.bot.latency * 1000, 2)}ms')
 
-    @command()
+    @command(aliases=['wisdom'])
     async def advice(self, ctx):
         """
         Requests advice from

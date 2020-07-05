@@ -22,7 +22,7 @@ async def main():
     bot = Bot(
         command_prefix=when_mentioned_or(prefix),
         help_command=None,
-        activity=Activity(type=ActivityType.watching, name='my MIT acceptance letter')
+        activity=Activity(type=ActivityType.watching, name='my MIT acceptance letter | `tom pls give help` for help')
     )
 
     async with aiohttp.ClientSession() as session:
