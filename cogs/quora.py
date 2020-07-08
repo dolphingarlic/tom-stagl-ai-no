@@ -119,6 +119,29 @@ class Quora(Cog):
 
         await ctx.send(f'Ice Hockey; {round(self.bot.latency * 1000, 2)}ms')
 
+    @Cog.listener()
+    async def on_guild_join(self, guild):
+        """
+        Sends a nice message when added to a new server
+        """
+
+        embed = discord.Embed(
+            title='Hi, I\'m Tom StaglAIno',
+            description=f'To get started, type `{self.prefix} help`.',
+            colour=0x2ac99e
+        ).add_field(
+            name='Who am I?',
+            value='~~I\'m Tom StaglAIno, can\'t you read?~~\n'
+            + 'I\'m a bot made with GPT-2 trained on Tom Stagliano\'s Quora answers.\n'
+            + '(I may be a bit slow to respond because of GPT-2 but please be patient.)',
+            inline=False
+        ).add_field(
+            name='Don\'t forget your GLOWING HOT LETTERS OF RECOMMENDATION!',
+            value=':envelope:',
+            inline=False
+        ).set_footer(text='Did I mention I went to MIT?')
+        await guild.system_channel.send(embed=embed)
+
     @command(aliases=['wisdom'])
     async def advice(self, ctx, prefix=''):
         """
