@@ -66,6 +66,10 @@ MIT (How fitting)
 
 - `USA??? The only way to get a F-1 student visa to attend college in the USA is to apply to your college’s campus police department, who are independent bodies and have independent rules for the admission of college students. Indeed, many of the US elite Private colleges have Volunteer Explorers who go to other planets to explore….. During the pandemic you should have: Been in a good-paying job for a while, and are now satisfied with your college education. Been recruited by one of the colleges to be a college ice hockey or team captain and then offered a scholarship to college. However, your application could have gone either way, but I believe the F-1 colleges (USA and Canada) like to have freshmen applicants compete every year for a single year with seniors…`
 
+- `There is no age limit for a COVID-19 application. However, the college will send a letter of acceptance to the applicant, and you will need to use your official time to meet the deadline by enlisting in the military or getting a medical treatment. If you apply in August or September of 2020, and are accepted in mid-August 2020, and you did not apply in April (or earlier) of 2021, the wait may be longer than 5 to 7 years. Good luck.`
+
+- `Belle Delphine is one of the best athletes I know. I coached her to a NCAA lacrosse championship in judo and she won. And she did that ten months later, at age 17. I coached our sons to NCAA lacrosse in the 1970 Olympics. And I am still “cautiously” following her every move (towards the Olympic Village). I love coaching younger girls and it truly is a “family”, especially if you are one of the two or three sisters`
+
 ## Disclaimers
 
 This bot is entirely for satire. Any semblance to the real Tom Stagliano is purely coincidental.
