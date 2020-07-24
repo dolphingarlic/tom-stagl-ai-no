@@ -70,6 +70,8 @@ MIT (How fitting)
 
 - `Belle Delphine is one of the best athletes I know. I coached her to a NCAA lacrosse championship in judo and she won. And she did that ten months later, at age 17. I coached our sons to NCAA lacrosse in the 1970 Olympics. And I am still “cautiously” following her every move (towards the Olympic Village). I love coaching younger girls and it truly is a “family”, especially if you are one of the two or three sisters`
 
+- `LORs are slightly more intelligent than the average human being. I believe that when applied to the aerospace industry it is to Intel.`
+
 ## Disclaimers
 
 This bot is entirely for satire. Any semblance to the real Tom Stagliano is purely coincidental.
