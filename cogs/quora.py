@@ -103,13 +103,13 @@ class Quora(Cog):
 
         await ctx.send(embed=embed)
 
-    @command()
+    @command(aliases=['topgg'])
     async def invite(self, ctx):
         """
         Sends a bot invite link
         """
 
-        await ctx.send('https://discord.com/api/oauth2/authorize?client_id=729060467959660554&permissions=2048&scope=bot')
+        await ctx.send('https://top.gg/bot/729060467959660554')
 
     @command()
     async def ping(self, ctx):
